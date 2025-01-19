@@ -1,0 +1,194 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  font-family: "Playwrite NZ";
+}
+.bgvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.navigation-bar {
+  width: 100%;
+}
+.navigation-bar ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.navigation-bar ul {
+  float: right;
+}
+.navigation-bar a {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+.content {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 100px;
+  color: #fff;
+}
+p {
+  color: #fff;
+  font-size: 30px;
+}
+.navigation-bar a:hover {
+  background-color: #ec14b9;
+}
+.About {
+  background-color: #ff70ab;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content {
+  height: 90vh;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+img {
+  margin-top: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.myintro {
+  color: black;
+  margin-bottom: 50px;
+  text-align: center;
+  margin: 0px 20px;
+}
+.Feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+label {
+  font-size: 50px;
+}
+input {
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+button {
+  padding: 5px 10px;
+  margin-left: 600px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #ec14b9;
+  cursor: pointer;
+}
+.conget {
+  color: black;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.Contact {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.con-but {
+  margin-left: -50px;
+  cursor: pointer;
+}
+.mail {
+  color: #fff;
+}
+footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.foot {
+  color: #fff;
+  font-size: 15px;
+}
+i{
+    color: #fff;
+}
+footer {
+  background-color: #ec14b9;
+}
+@media (max-width: 480px) {
+  .container {
+    height: 110vh;
+  }
+  .content {
+    height: 75vh;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .navigation-bar ul li {
+    margin-left: -10px;
+  }
+  .navigation-bar ul {
+    margin-left: 8px;
+  }
+  .navigation-bar a {
+    font-size: 13px;
+  }
+  label {
+    font-size: 20px;
+  }
+  input {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .conget {
+    font-size: 20px;
+  }
+  .con-but {
+    margin-left: -10px;
+  }
+  .foot{
+    font-size: 12px;
+  }
+  button{
+    margin-left: 200px;
+  }
+}
+@media (min-width: 481px) and (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  .navigation-bar ul {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}

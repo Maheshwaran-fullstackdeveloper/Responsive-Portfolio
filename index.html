@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="Stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d42d810063.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <nav class="navigation-bar">
+          <ul>
+            <li><a href="\">Home</a></li>
+            <li><a href="\">Contact</a></li>
+            <li><a href="\">About</a></li>
+            <li><a href="\">Feedback</a></li>
+          </ul>
+        </nav>
+        <video autoplay muted loop class="bgvideo">
+          <source src="./background.mp4" type="video/mp4" />
+        </video>
+        <div class="content">
+          <h1>Hi, I'm Maheshwaran G</h1>
+          <p>- A Professional Full-Stack Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <img src="./Profile.jpg" height="200px" width="200px" alt="Profile" />
+      <p class="myintro">
+        Hi Everyone, I'm Maheshwaran G.<br> I'm an Aspiring Full-Stack Web
+        Developer, Currently mastering In Both Front-end And Back-End.
+      </p>
+    </div>
+    <div class="Feedback">
+      <form>
+        <label>Your Feedback Matters:-</label><br /><br />
+        <input type="text" placeholder="Give your Feedback" />
+      </form>
+      <button onclick="myfunction()">Submit</button>
+    </div>
+    <div class="Contact">
+      <p class="conget">Get In Touch With Me !</p>
+      <button class="con-but"><a href="mailto:maheshwaran30g@gmail.com" class="mail">CONTACT ME !</a></button>
+    </div>
+    <footer>
+        <i class="fa-regular fa-copyright"></i><p class="foot"> 2024 Content owned and managed by Maheshwaran</p>
+    </footer>
+    <script>
+      function myfunction() {
+        alert("SUCCESSFULLY SUBMITTED!");
+      }
+    </script>
+  </body>
+</html>
